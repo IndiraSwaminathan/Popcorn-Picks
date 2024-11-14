@@ -40,12 +40,14 @@ This is conducted in three steps:
 2.	Normalizing data
 3.	Binarizing the data
 	
-#### Data Selection: Through this I visualized the top users and movies through a heatmap. Then I visualized the distribution of the average ratings per user.
+#### Data Selection: 
+Through this I visualized the top users and movies through a heatmap. Then I visualized the distribution of the average ratings per user.
 
-#### Data Normalization: In the case of some users, there can be high ratings or low ratings provided to all of the watched films. This will act as a bias while implementing the model. In order to remove this, I normalized the data. Normalization is a data preparation procedure to standardize the numerical values in a column to a common scale value. This is done in such a way that there is no distortion in the range of values. Normalization transforms the average value of our ratings column to 0. I then plotted a heatmap that portrays our normalized ratings.
+#### Data Normalization: 
+In the case of some users, there can be high ratings or low ratings provided to all of the watched films. This will act as a bias while implementing the model. In order to remove this, I normalized the data. Normalization is a data preparation procedure to standardize the numerical values in a column to a common scale value. This is done in such a way that there is no distortion in the range of values. Normalization transforms the average value of our ratings column to 0. I then plotted a heatmap that portrays our normalized ratings.
 
-#### Data Binarization: In the final step of the data preparation, in this data science project, I 
-binarized the data. Binarizing the data means that we have two discrete values 1 and 0, which will allow the recommendation system to work more efficiently. I defined a matrix that will consist of 1 if the rating is above 3 and otherwise it will be 0.
+#### Data Binarization: 
+In the final step of the data preparation, in this data science project, I binarized the data. Binarizing the data means that we have two discrete values 1 and 0, which will allow the recommendation system to work more efficiently. I defined a matrix that will consist of 1 if the rating is above 3 and otherwise it will be 0.
 
 ### Collaborative Filtering System
 In this phase, I developed an Item-Based Collaborative Filtering System. This approach identifies item similarities based on user ratings. The algorithm constructs a similar-items table by analyzing customer purchase patterns, which then feeds into the recommendation system.
