@@ -1,7 +1,7 @@
 # Popcorn-Picks
 
-Movie Recommendation System: Project using R and Machine learning
-Aim of Project
+## Movie Recommendation System: Project using R and Machine learning
+### Aim of Project
 This R-based machine learning project focuses on building a movie recommendation engine using Item-Based Collaborative Filtering. The project aims to create a practical understanding of recommendation systems while applying data science and machine learning skills in a real-world context. By developing this personalized movie suggestion tool, I gained valuable hands-on experience in implementing advanced analytics techniques for predictive modeling and user-centric content delivery.
 
 Dataset used
